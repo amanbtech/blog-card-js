@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Card with JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .card img{
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <input type="text" id="search" placeholder="Search blog here" />
+    <button id="toggle">🌙 Dark Mode</button>
+  </header>
+
+  <section class="container" id="blog-container">
+    <div class="card">
+      <img src="image1 of card1.avif"  alt="Blog image" />
+      <div class="card-content">
+        <h2>Learn HTML Basics</h2>
+        <p>This blog explains how to start with HTML5 in a structured way.</p>
+        <button class="like-btn">❤️ 0</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image of card2.avif"  alt="Blog image" />
+      <div class="card-content">
+        <h2>Master CSS Grid</h2>
+        <p>This blog guides you to design with CSS Grid layout easily.</p>
+        <button class="like-btn">❤️ 0</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image of card3.avif"   alt="Blog image" />
+      <div class="card-content">
+        <h2>JavaScript Made Simple</h2>
+        <p>Get started with JavaScript and DOM in easy steps.</p>
+        <button class="like-btn">❤️ 0</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
