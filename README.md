@@ -1,6 +1,6 @@
  📰 Blog Card
 1. A simple, clean, and responsive blog card UI built using HTML, CSS, and JavaScript.
- 2. [Click to View](https://amanbtech.github.io/blog-card/)
+ 2. [Click to View](https://amanbtech.github.io/blog-card-js/)
   
  3. Tech Stack
 a. HTML5
